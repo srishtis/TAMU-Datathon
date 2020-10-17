@@ -1,0 +1,10 @@
+top_n= ["1","2","3","4","5","6","7","8","9","10"]
+"https://www.walmart.com/browse/electronics/all-laptop-computers/3944_3951_1089430_132960"+"?page="+top_n[i]
+
+
+top_n= ["1","2","3","4","5","6","7","8","9","10"]
+"https://www.walmart.com/browse/prepaid-phones/1105910_4527935_1072335"+"?page="+top_n[i]
+
+
+top_n= ["1","2","3","4","5","6","7","8","9","10"]
+"https://www.walmart.com/browse/electronics/portable-audio/3944_96469"+"?page="+top_n[i]
