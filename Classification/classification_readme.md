@@ -7,9 +7,8 @@ since I was using custom data from our crawler.
 After the incredibly tedious parrallelized web crawling which is all credit to my teammates. I used pandas to pull the two features I needed
 'product_name' and 'product_category'
 
-image here later
-
-image her later
+![data cleaning](https://github.com/srishtis/TAMU-Datathon/blob/main/Classification/Data_Preproccessing.png)
+![model flow](https://github.com/srishtis/TAMU-Datathon/blob/main/Classification/Model_Process.png)
 
 Then I train to ~90% accuracy which was about 30 epochs
 
