@@ -11,5 +11,5 @@ After the incredibly tedious parrallelized web crawling which is all credit to m
 ![model flow](https://github.com/srishtis/TAMU-Datathon/blob/main/Classification/Model_Process.png)
 
 Then I train to ~90% accuracy which was about 30 epochs
-
+![in progress](https://github.com/srishtis/TAMU-Datathon/blob/main/Classification/Untitled.png)
 After this, all that was left was the front end. Not that it was trivial, perhaps opposite of that...
