@@ -19,7 +19,7 @@ if __name__ == "__main__":
 
     # Assume data will come in via csv or json or some other pandas DF readable format
     # The drawback is that the data has to be in the same file
-    df2 = pd.read_csv('dummy_data.csv', encoding='cp1252')
+    df2 = pd.read_csv('filtered_out_TVs.csv')
     df = df2[['product_name', 'category_number']]
 
     #####################################
@@ -64,7 +64,7 @@ if __name__ == "__main__":
     model = tf.keras.Sequential()
     model.add(hub_layer)
     model.add(tf.keras.layers.Dense(16, activation='relu'))
-    model.add(tf.keras.layers.Dense(2))
+    model.add(tf.keras.layers.Dense(6))
     model.summary()
 
     print('Are we compiling? ')
