@@ -19,7 +19,7 @@ if __name__ == "__main__":
 
     # Assume data will come in via csv or json or some other pandas DF readable format
     # The drawback is that the data has to be in the same file
-    df2 = pd.read_csv('filtered_out_TVs.csv')
+    df2 = pd.read_csv('big_df.csv')
     df = df2[['product_name', 'category_number']]
 
     #####################################
@@ -64,7 +64,7 @@ if __name__ == "__main__":
     model = tf.keras.Sequential()
     model.add(hub_layer)
     model.add(tf.keras.layers.Dense(16, activation='relu'))
-    model.add(tf.keras.layers.Dense(6))
+    model.add(tf.keras.layers.Dense(12))
     model.summary()
 
     print('Are we compiling? ')
@@ -75,7 +75,7 @@ if __name__ == "__main__":
 
     print('Are we training? ')
     # model training
-    history = model.fit(train_data.shuffle(num_samples).batch(512), epochs=10, validation_data=validation_data.batch(512), verbose=1)
+    history = model.fit(train_data.shuffle(num_samples).batch(512), epochs=30, validation_data=validation_data.batch(512), verbose=1)
     # history = model.fit(train_data, epochs=10, validation_data=validation_data, verbose=1)
 
     print('Are we evaluating? ')
@@ -84,3 +84,5 @@ if __name__ == "__main__":
 
     for name, value in zip(model.metrics_names, results):
         print("%s: %.3f" % (name, value))
+
+    model.save('text_product_classify')
