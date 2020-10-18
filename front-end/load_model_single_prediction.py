@@ -5,7 +5,7 @@ tf.keras.backend.clear_session()
 
 # Takes in single raw string and runs prediction on it
 def single_predict(raw_string_input):
-    loaded_model = tf.keras.models.load_model('text_product_classify_7_cat')
+    loaded_model = tf.keras.models.load_model('text_product_classify_9_cat')
 
     # get raw input from function input
     test_input = raw_string_input
