@@ -63,11 +63,11 @@ def single_predict(raw_string_input):
         if product_number == ind:
             likely_category = product_name
 
-    return preds, likely_category
+    return likely_category
 
 
-# EXTRA FUNCTION CALL FOR TESTING, THIS WOULD BE CALLED IN MAIN UI LOOP
-raw_input_test = 'Cricket Wireless LG Risio 4 16GB Prepaid Smartphone, Blue'
-predictions, high_prob_category = single_predict(raw_input_test)
-print("With chosen input: " + raw_input_test)
-print("The most likely category is: " + high_prob_category)
+# # EXTRA FUNCTION CALL FOR TESTING, THIS WOULD BE CALLED IN MAIN UI LOOP
+# raw_input_test = 'Cricket Wireless LG Risio 4 16GB Prepaid Smartphone, Blue'
+# predictions, high_prob_category = single_predict(raw_input_test)
+# print("With chosen input: " + raw_input_test)
+# print("The most likely category is: " + high_prob_category)

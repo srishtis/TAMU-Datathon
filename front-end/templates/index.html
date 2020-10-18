@@ -9,7 +9,7 @@
 	<h1>Enter the product</h1>
 
      <!-- Main Input For Receiving Query to our ML -->
-    <form action="{{ url_for('predict')}}"method="post">
+    <form action="{{ url_for('predict')}}"method="POST">
     	<input type="text" name="product" placeholder="Product" required="required" />
         <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
     </form>
@@ -17,7 +17,7 @@
    <br>
    <br>
    <!-- This line will rreturn what the model returns -->
-   {{ prediction_text }}
+   The most likely category is: {{ prediction_text }}
 
  </div>
 
