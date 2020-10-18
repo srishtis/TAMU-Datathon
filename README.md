@@ -8,7 +8,7 @@ Team Members: Daniel Chavez, Bhaskar, Tapan Ganatma Nakkina, Srishti Saha
 
 ## Video Submissions:
 * [Classifier Demo](https://www.youtube.com/watch?v=4yyQNJGJmeY&feature=youtu.be);
-* [Recommender Systems Demo](https://www.youtube.com/watch?v=vynHLFwdmPw);
+* [Recommender Systems Demo](https://www.youtube.com/watch?v=vynHLFwdmPw&list=PLdZLVGh3VsKfMj5gF1GZ2nYLd8j-Ab2OC);
 * [Final Presentation](https://www.youtube.com/watch?v=Ibpqs3JcxEE)
 
 
